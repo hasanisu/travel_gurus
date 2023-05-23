@@ -1,0 +1,80 @@
+import React from 'react';
+import {Link} from 'react-router-dom';
+import image from '../../resources/Photos/sundor/ss-1.jpg'
+import image1 from '../../resources/Photos/sundor/ss-2.jpg'
+import image2 from '../../resources/Photos/sundor/ss-3.jpg'
+import image3 from '../../resources/Photos/sundor/ss-4.jpg'
+
+
+
+const Sunderban = () => {
+    return (
+        <div className="bg-gray-800 text-gray-100">
+	<div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
+		<Link rel="noopener noreferrer" to="" className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12bg-gray-900">
+			<img src="https://porzoton.com/wp-content/uploads/2020/03/Sajek-Valley-Rangamati-Featured.jpg" alt="" className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 bg-gray-500" />
+			<div className="p-6 space-y-2 lg:col-span-5">
+				<h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">Noster tincidunt reprimique ad pro</h3>
+				<span className="text-xs dark:text-gray-400">February 19, 2021</span>
+				<p>Ei delenit sensibus liberavisse pri. Quod suscipit no nam. Est in graece fuisset, eos affert putent doctus id.</p>
+			</div>
+		</Link>
+		<div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+			<Link rel="noopener noreferrer" to="" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-900">
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src={image} />
+				<div className="p-6 space-y-2">
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<span className="text-xs dark:text-gray-400">January 21, 2021</span>
+					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+				</div>
+			</Link>
+			<Link rel="noopener noreferrer" to="" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-900">
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src={image2} />
+				<div className="p-6 space-y-2">
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<span className="text-xs dark:text-gray-400">January 22, 2021</span>
+					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+				</div>
+			</Link>
+			<Link rel="noopener noreferrer" to="" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-900">
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src={image2} />
+				<div className="p-6 space-y-2">
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<span className="text-xs dark:text-gray-400">January 23, 2021</span>
+					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+				</div>
+			</Link>
+			<Link rel="noopener noreferrer" to="" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-900 hidden sm:block">
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src={image} />
+				<div className="p-6 space-y-2">
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<span className="text-xs dark:text-gray-400">January 24, 2021</span>
+					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+				</div>
+			</Link>
+			<Link rel="noopener noreferrer" to="" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-900 hidden sm:block">
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src={image1} />
+				<div className="p-6 space-y-2">
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<span className="text-xs dark:text-gray-400">January 25, 2021</span>
+					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+				</div>
+			</Link>
+			<Link rel="noopener noreferrer" to="" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-900 hidden sm:block">
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src={image2} />
+				<div className="p-6 space-y-2">
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<span className="text-xs dark:text-gray-400">January 26, 2021</span>
+					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+				</div>
+			</Link>
+		</div>
+		<div className="flex justify-center">
+        <Link to='/'><button type="button" className="px-6 py-3 text-sm rounded-md hover:underline dark:bg-gray-900 dark:text-gray-400">Back to homepage...</button></Link>
+		</div>
+	</div>
+</div>
+    );
+};
+
+export default Sunderban;

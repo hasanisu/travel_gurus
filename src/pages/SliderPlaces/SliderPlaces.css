@@ -1,0 +1,69 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.mySwiper{
+    width: 364px;
+    height: 500px;
+}
+.container {
+    
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    
+  }
+  .container:hover{
+    border: 4px solid yellow;
+    border-radius: 30px;
+  }
+
+
+
+  /* @media screen and (max-width: 768px) {
+    .swiper  {
+      width: 240px;
+      height: 467px;
+    }
+  }
+  @media screen and (min-width: 769px) {
+    .swiper  {
+      width: 670px;
+      height: 467px;
+    }
+  } */
